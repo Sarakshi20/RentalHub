@@ -25,7 +25,7 @@ app.use(express.json());
 
 
 app.use(cors({
-    origin: 'https://rental-hub-topaz.vercel.app/', // Allow your frontend origin
+    origin: 'https://rental-hub-topaz.vercel.app', // Allow your frontend origin
     methods: ['GET', 'POST'], // Allowable methods
 }));
 
