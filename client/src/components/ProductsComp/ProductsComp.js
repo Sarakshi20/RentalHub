@@ -15,7 +15,7 @@ function ProductsComp() {
   const [ItemData, setItemData] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
   useEffect(() => {
-    axios.get('http://localhost:3100/Items', {
+    axios.get('https://rentalhub-server.onrender.com/Items', {
       headers: {
         "Authorization": `Bearer ${localStorage.getItem("token")}`
       }
