@@ -18,7 +18,7 @@ function Register() {
 
   const sendData = async(e) => {
     e.preventDefault();
-    await axios.post('http://localhost:3100/register',userInput)
+    await axios.post('https://rentalhub-server.onrender.com/register',userInput)
     .then((response) => {
       if(response.data === false){
         return alert("Email is already taken");

@@ -11,7 +11,7 @@ function ListViewComp() {
     const navigate = useNavigate();
     const [ItemData, setItemData] = useState([{}]);
     useEffect(() => {
-        axios.get('http://localhost:3100/viewItems', {
+        axios.get('https://rentalhub-server.onrender.com/viewItems', {
             headers: {
                 "Authorization": `Bearer ${localStorage.getItem("token")}`
             }

@@ -17,7 +17,7 @@ function Profilecomp() {
   const USer = {name: "",email:""};
   const [name, setName] = useState(USer);
   useEffect(() => {
-    axios.get('http://localhost:3100/profile', {
+    axios.get('https://rentalhub-server.onrender.com/profile', {
       headers: {
         "Authorization": `Bearer ${localStorage.getItem("token")}`
       }

@@ -28,7 +28,7 @@ function ItemDetails() {
             id : selectedItem._id,
             RentalDuration: DaysInput
         }
-        await axios.post('http://localhost:3100/Items',DATA, {
+        await axios.post('https://rentalhub-server.onrender.com/Items',DATA, {
             headers:{
                 "Authorization" : `Bearer ${localStorage.getItem('token')}`
             }

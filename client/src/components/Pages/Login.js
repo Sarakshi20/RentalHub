@@ -16,7 +16,7 @@ function Login() {
 
   async function sendData(e){
     e.preventDefault();
-    await axios.post('http://localhost:3100/login',userInput)
+    await axios.post('https://rentalhub-server.onrender.com/login',userInput)
     .then((response)=>{
       if(response.status === 200){
         localStorage.setItem("token",response.data);

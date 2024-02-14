@@ -52,7 +52,7 @@ function ListItemsComp() {
     }, [ItemData.imagePath]);
 
     async function handleSubmit() {
-        await axios.post('http://localhost:3100/listItems',ItemData,{
+        await axios.post('https://rentalhub-server.onrender.com/listItems',ItemData,{
             headers: {
               "Authorization": `Bearer ${localStorage.getItem("token")}`
             }
