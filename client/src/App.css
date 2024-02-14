@@ -1,0 +1,49 @@
+.account{
+    border: black 2px solid; 
+    border-radius: 10px;
+}
+.account:hover{
+    background-color: black;
+    color: white !important;
+}
+
+.navHov:hover{
+    color: rgba(75, 75, 75, 0.492) !important;
+}
+
+.loginBox{
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 95vh;
+    overflow: hidden;
+}
+
+.SignUp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    margin: auto;
+    height: 50%;
+}
+
+.Box{
+    height: 80%;
+}
+
+.home-btn:hover{
+    background-color: #173c53 !important; 
+    color: #adcdff !important; 
+}
+
+.profile-box{
+    transition: transform 300ms ease-in-out !important;
+}
+
+.profile-box:hover{
+    transform: scale(0.92);
+}
