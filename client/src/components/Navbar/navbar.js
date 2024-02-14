@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function NavB() {
   return (
-    <Navbar expand="lg" style={{backgroundColor:"#173c53" , color:"#fff6f6",position:"fixed",width:"100%",zIndex:"3"}}>
+    <Navbar expand="lg" style={{backgroundColor:"#173c53" , color:"#fff6f6",position:"fixed",width:"100%",zIndex:"3"}} variant='dark'>
       <Container>
         <Navbar.Brand href="/" style={{color:"#adcdff",fontWeight:"500",fontSize:"25px"}}><i className="fa-solid fa-truck-moving fa-flip-horizontal fa-lg" style={{color: "#adcdff"}}></i> RentalHub</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
